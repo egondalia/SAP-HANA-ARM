@@ -204,7 +204,7 @@
         "diskConfig_Standard_E64s_v3": {
             "shared": 511,
             "sap": 63,
-            "backup": 1023,
+            "backup": 511,
             "data1": 511,
             "data2": 511
         },

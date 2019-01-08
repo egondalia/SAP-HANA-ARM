@@ -203,7 +203,7 @@
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Premium_LRS",
-                "tier": "Standard"
+                "tier": "Premium"
             },
             "properties": {
                 "creationData": {
@@ -219,7 +219,7 @@
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Premium_LRS",
-                "tier": "Standard"
+                "tier": "Premium"
             },
             "properties": {
                 "creationData": {
@@ -235,7 +235,7 @@
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Premium_LRS",
-                "tier": "Standard"
+                "tier": "Premium"
             },
             "properties": {
                 "creationData": {
@@ -251,7 +251,7 @@
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Premium_LRS",
-                "tier": "Standard"
+                "tier": "Premium"
             },
             "properties": {
                 "creationData": {

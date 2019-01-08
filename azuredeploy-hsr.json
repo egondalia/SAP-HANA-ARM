@@ -198,7 +198,7 @@
         }   
     },
     "variables": {
-        "baseUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master",
+        "baseUri": "https://raw.githubusercontent.com/egondalia/SAP-HANA-ARM/master",
         "repoUri": "[variables('baseUri')]",
         "infraUri": "[concat(variables('baseUri'), '/azuredeploy-hsr-infra.json')]",
         "swUri": "[concat(variables('baseUri'), '/azuredeploy-hsr-sw.json')]"

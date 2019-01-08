@@ -128,7 +128,7 @@
         "api-version": "2017-06-01",
         "api-version-vm": "2017-12-01",
         "mode": "Push",
-        "baseUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master/",
+        "baseUri": "https://raw.githubusercontent.com/egondalia/SAP-HANA-ARM/master/",
         "nicName": "[if (equals(parameters('IPAllocationMethod'),'Static'), concat(parameters('vmName'),'-static'), concat(parameters('vmName'),'-dynamic'))]",
         "subnetRef": "[parameters('HANASubnetRef')]",
         "OperatingSystemSpec": {
@@ -220,7 +220,7 @@
             "apiVersion": "2018-04-01",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "Standard_LRS",
+                "name": "Premium_LRS",
                 "tier": "Standard"
             },
             "properties": {
@@ -236,7 +236,7 @@
             "apiVersion": "2018-04-01",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "Standard_LRS",
+                "name": "Premium_LRS",
                 "tier": "Standard"
             },
             "properties": {
@@ -252,7 +252,7 @@
             "apiVersion": "2018-04-01",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "Standard_LRS",
+                "name": "Premium_LRS",
                 "tier": "Standard"
             },
             "properties": {

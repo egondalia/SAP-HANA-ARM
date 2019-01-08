@@ -199,7 +199,7 @@
     "variables": {
         "vmName1": "[toLower(parameters('vmName1'))]",
         "vmName2": "[toLower(parameters('vmName2'))]",
-        "baseUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master",
+        "baseUri": "https://raw.githubusercontent.com/egondalia/SAP-HANA-ARM/master",
         "repoUri": "[variables('baseUri')]",
         "smallUri": "[concat(variables('baseUri'), '/Vms/small-hsr.json')]",
         "mediumUri": "[concat(variables('baseUri'), '/Vms/medium-hsr.json')]",
